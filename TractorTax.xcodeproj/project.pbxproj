@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72B49C222638C23003B6F53 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A72B49C122638C23003B6F53 /* Montserrat-SemiBold.ttf */; };
 		A738FC53226380B8009CD9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738FC52226380B8009CD9EE /* AppDelegate.swift */; };
 		A738FC55226380B8009CD9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738FC54226380B8009CD9EE /* ViewController.swift */; };
 		A738FC58226380B9009CD9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A738FC56226380B8009CD9EE /* Main.storyboard */; };
-		A738FC5A226380BB009CD9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A738FC59226380BB009CD9EE /* Assets.xcassets */; };
 		A738FC5D226380BB009CD9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A738FC5B226380BB009CD9EE /* LaunchScreen.storyboard */; };
+		A738FC6522638342009CD9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A738FC6422638342009CD9EE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72B49C122638C23003B6F53 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		A738FC4F226380B8009CD9EE /* TractorTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TractorTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A738FC52226380B8009CD9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A738FC54226380B8009CD9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A738FC54226380B8009CD9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A738FC57226380B8009CD9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A738FC59226380BB009CD9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A738FC5C226380BB009CD9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A738FC5E226380BB009CD9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A738FC6422638342009CD9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A738FC51226380B8009CD9EE /* TractorTax */ = {
 			isa = PBXGroup;
 			children = (
+				A738FC6622638B69009CD9EE /* Fonts */,
+				A738FC6422638342009CD9EE /* Assets.xcassets */,
 				A738FC52226380B8009CD9EE /* AppDelegate.swift */,
 				A738FC54226380B8009CD9EE /* ViewController.swift */,
 				A738FC56226380B8009CD9EE /* Main.storyboard */,
-				A738FC59226380BB009CD9EE /* Assets.xcassets */,
 				A738FC5B226380BB009CD9EE /* LaunchScreen.storyboard */,
 				A738FC5E226380BB009CD9EE /* Info.plist */,
 			);
 			path = TractorTax;
+			sourceTree = "<group>";
+		};
+		A738FC6622638B69009CD9EE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A72B49C122638C23003B6F53 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A738FC5D226380BB009CD9EE /* LaunchScreen.storyboard in Resources */,
-				A738FC5A226380BB009CD9EE /* Assets.xcassets in Resources */,
+				A738FC6522638342009CD9EE /* Assets.xcassets in Resources */,
+				A72B49C222638C23003B6F53 /* Montserrat-SemiBold.ttf in Resources */,
 				A738FC58226380B9009CD9EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
